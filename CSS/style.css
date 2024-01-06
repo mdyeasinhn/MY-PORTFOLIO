@@ -1,33 +1,75 @@
 /* font family */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 
 }
-.text-primary{
-    color: #FD6D0A;
-}
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6D0A ;
-}
-/* nav related style */
-nav{
-    display: flex;
-}
-.nav-title{
-    color: #181818;
+
+/* text color */
+h3 {
     font-size: 45px;
     font-weight: 800;
 
 }
-nav > ul{
-    display: flex;
+
+.text-primary {
+    color: #FD6D0A;
+
 }
+
+/* button style start */
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6D0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 18px 35px;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related style */
+.header {
+    background: #FFF8F3;
+}
+
+/* bnanner related style */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .Profile-pic {
+    width: 500px;
+    /* height: 676px; */
 }
